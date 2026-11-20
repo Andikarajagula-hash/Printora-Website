@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Printora — Solusi Cetak Digital & Desain Grafis Malang</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 1. NAV MENU -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4" href="index.html">
+        <i class="bi bi-printer-fill text-info me-2"></i>PRINT<span>ORA</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="katalog.html">Katalog Layanan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portofolio.html">Portofolio</a>
+          </li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <a class="btn btn-info text-white fw-semibold px-4 rounded-pill" href="pesan.html">
+              Pesan Sekarang
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 2. CAROUSEL -->
+  <header id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <img src="assets/img/slide-1.jpg" class="d-block w-100" alt="Mesin Cetak Digital Printora">
+        <div class="container">
+          <div class="carousel-caption">
+            <span class="badge bg-info text-dark fw-semibold mb-3 px-3 py-2">CETAK KILAT & PRESISI</span>
+            <h1 class="display-5 fw-bold mb-3">Hasil Cetak Tajam untuk Kebutuhan Bisnis Anda</h1>
+            <p class="lead mb-4">Melayani cetak A3+, spanduk outdoor, stiker cutting, hingga merchandise dengan standar warna akurat di area Malang.</p>
+            <a href="katalog.html" class="btn btn-info text-white btn-lg fw-semibold px-4 me-2">Lihat Katalog</a>
+            <a href="pesan.html" class="btn btn-outline-light btn-lg px-4">Order Online</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <img src="assets/img/slide-2.jpg" class="d-block w-100" alt="Cetak Banner dan Spanduk Outdoor">
+        <div class="container">
+          <div class="carousel-caption">
+            <span class="badge bg-warning text-dark fw-semibold mb-3 px-3 py-2">PROMO UMKM MALANG</span>
+            <h1 class="display-5 fw-bold mb-3">Cetak Banner & Spanduk Tahan Cuaca</h1>
+            <p class="lead mb-4">Menggunakan tinta solvent berkualitas tinggi agar media promosi toko dan event Anda awet di luar ruangan.</p>
+            <a href="pesan.html" class="btn btn-warning text-dark btn-lg fw-semibold px-4">Hitung & Pesan</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <img src="assets/img/slide-3.jpg" class="d-block w-100" alt="Layanan Cutting Stiker Kemasan">
+        <div class="container">
+          <div class="carousel-caption">
+            <span class="badge bg-light text-dark fw-semibold mb-3 px-3 py-2">STIKER & PACKAGING</span>
+            <h1 class="display-5 fw-bold mb-3">Cutting Stiker Label Produk Rapi & Siap Tempel</h1>
+            <p class="lead mb-4">Potongan kiss-cut dan die-cut presisi untuk label botol, makanan, dan kemasan produk tanpa minimal order besar.</p>
+            <a href="portofolio.html" class="btn btn-info text-white btn-lg fw-semibold px-4">Lihat Hasil Cetak</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden">Sebelumnya</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="visually-hidden">Berikutnya</span>
+    </button>
+  </header>
+
+  <!-- KEUNGGULAN -->
+  <section class="py-5 bg-light">
+    <div class="container py-3">
+      <div class="row g-4 text-center">
+        <div class="col-md-4">
+          <div class="p-4 bg-white rounded-4 shadow-sm h-100">
+            <div class="feature-icon mb-3"><i class="bi bi-lightning-charge-fill"></i></div>
+            <h5 class="fw-bold">Pengerjaan Cepat</h5>
+            <p class="text-muted mb-0">Order masuk langsung diproses antrean produksi sehingga bisa selesai di hari yang sama untuk cetak reguler.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 bg-white rounded-4 shadow-sm h-100">
+            <div class="feature-icon mb-3"><i class="bi bi-palette-fill"></i></div>
+            <h5 class="fw-bold">Warna Konsisten</h5>
+            <p class="text-muted mb-0">Kalibrasi profil CMYK rutin menjaga hasil cetak tetap tajam dan sesuai dengan file desain asli Anda.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 bg-white rounded-4 shadow-sm h-100">
+            <div class="feature-icon mb-3"><i class="bi bi-headset"></i></div>
+            <h5 class="fw-bold">Bantuan Cek File</h5>
+            <p class="text-muted mb-0">Tim pracetak kami memeriksa resolusi, bleed, dan ukuran desain sebelum naik mesin agar tidak ada kesalahan cetak.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. CARD LAYANAN UNGGULAN -->
+  <section class="py-5">
+    <div class="container py-3">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4">
+        <div>
+          <span class="text-info fw-bold text-uppercase small">Layanan Unggulan</span>
+          <h2 class="fw-bold mt-1">Paling Banyak Dipesan di Printora</h2>
+        </div>
+        <a href="katalog.html" class="btn btn-outline-primary rounded-pill mt-3 mt-md-0">
+          Lihat Semua Layanan <i class="bi bi-arrow-right ms-1"></i>
+        </a>
+      </div>
+
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card service-card shadow-sm h-100">
+            <img src="assets/img/produk-a3.jpg" class="card-img-top" alt="Cetak Digital A3+">
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="badge bg-info-subtle text-info-emphasis">Digital Press</span>
+                <span class="fw-bold text-primary">Mulai Rp4.500/lbr</span>
+              </div>
+              <h5 class="card-title fw-bold">Cetak Digital A3+</h5>
+              <p class="card-text text-muted small">Cocok untuk brosur, poster, kartu nama, menu kafe, dan sertifikat di bahan Art Paper, Art Carton, maupun Ivory.</p>
+              <a href="pesan.html" class="btn btn-dark w-100 mt-auto rounded-3">Pesan Layanan Ini</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card service-card shadow-sm h-100">
+            <img src="assets/img/produk-banner.jpg" class="card-img-top" alt="Cetak Banner Outdoor">
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="badge bg-warning-subtle text-warning-emphasis">Large Format</span>
+                <span class="fw-bold text-primary">Mulai Rp20.000/m²</span>
+              </div>
+              <h5 class="card-title fw-bold">Spanduk & X-Banner</h5>
+              <p class="card-text text-muted small">Pilihan bahan Flexy 280gr hingga Korcin 440gr lengkap dengan finishing mata ayam atau selongsong bambu.</p>
+              <a href="pesan.html" class="btn btn-dark w-100 mt-auto rounded-3">Pesan Layanan Ini</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card service-card shadow-sm h-100">
+            <img src="assets/img/produk-stiker.jpg" class="card-img-top" alt="Cutting Stiker Kemasan">
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="badge bg-success-subtle text-success-emphasis">Packaging</span>
+                <span class="fw-bold text-primary">Mulai Rp12.000/lbr</span>
+              </div>
+              <h5 class="card-title fw-bold">Stiker Label & Cutting</h5>
+              <p class="card-text text-muted small">Tersedia bahan Chromo, Vinyl putih, dan Transparan tahan air dengan pemotongan pola otomatis (kiss-cut).</p>
+              <a href="pesan.html" class="btn btn-dark w-100 mt-auto rounded-3">Pesan Layanan Ini</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="py-5 bg-primary text-white">
+    <div class="container text-center py-3">
+      <h2 class="fw-bold mb-3">Sudah Punya File Desain Siap Cetak?</h2>
+      <p class="lead mb-4">Kirim detail pesanan Anda melalui formulir online kami agar langsung masuk jadwal produksi hari ini.</p>
+      <a href="pesan.html" class="btn btn-light text-primary fw-bold btn-lg px-5 rounded-pill shadow">
+        Isi Formulir Pemesanan
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-5">
+          <h5 class="fw-bold text-white mb-3"><i class="bi bi-printer-fill text-info me-2"></i>PRINTORA</h5>
+          <p class="small">Partner percetakan digital, promosi outdoor, dan desain grafis terpercaya untuk UMKM, instansi, dan kebutuhan personal di wilayah Malang Raya.</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h6 class="fw-bold text-white mb-3">Navigasi</h6>
+          <ul class="list-unstyled small">
+            <li class="mb-2"><a href="index.html" class="text-decoration-none text-secondary">Beranda</a></li>
+            <li class="mb-2"><a href="katalog.html" class="text-decoration-none text-secondary">Katalog Layanan</a></li>
+            <li class="mb-2"><a href="portofolio.html" class="text-decoration-none text-secondary">Portofolio</a></li>
+            <li><a href="pesan.html" class="text-decoration-none text-secondary">Formulir Pesan</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-4">
+          <h6 class="fw-bold text-white mb-3">Jam Operasional & Lokasi</h6>
+          <p class="small mb-1"><i class="bi bi-geo-alt-fill text-info me-2"></i>Malang, Jawa Timur</p>
+          <p class="small mb-1"><i class="bi bi-clock-fill text-info me-2"></i>Senin – Sabtu: 08.00 – 17.00 WIB</p>
+          <p class="small mb-0"><i class="bi bi-envelope-fill text-info me-2"></i>order@printora.id</p>
+        </div>
+      </div>
+      <hr class="border-secondary my-4">
+      <p class="text-center small text-secondary mb-0">&copy; 2026 Printora Digital Printing. Proyek UTS Pemrograman Web 1.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
